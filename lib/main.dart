@@ -15,23 +15,30 @@ final Future<FirebaseApp> _initialization = Firebase.initializeApp(
 );
 
 @pragma('vm:entry-point')
-Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  await Firebase.initializeApp();
-  RemoteNotification? notification = message.notification;
+Future<void> firebaseMessagingBackgroundHandler(
+    RemoteMessage remoteMessage) async {
+  // await Firebase.initializeApp();
+  // RemoteNotification? notification = remoteMessage.notification;
 
+  await displayPushNotification(remoteMessage);
+/*
   AndroidNotificationDetails androidPlatformChannelSpecifics =
       AndroidNotificationDetails(
+    'test_notifid',
     'test_notif',
-    'test_notif',
-    channelDescription: 'test_notif sound',
+    channelDescription: 'main test_notif sound',
+    color: Colors.red,
+    ledColor: Colors.red,
+    visibility: NotificationVisibility.public,
     importance: Importance.max,
     priority: Priority.high,
-    fullScreenIntent: true,
-    ongoing: true,
-    ledColor: Colors.red,
-    color: Colors.red,
     ledOnMs: 100,
     ledOffMs: 1000,
+    //  fullScreenIntent: true,
+    // ongoing: true,
+    playSound: true,
+    category: AndroidNotificationCategory.alarm,
+    ticker: 'ticker',
   );
 
   var iOSPlatformChannelSpecifics = iOSNotificationDetails();
@@ -48,8 +55,15 @@ Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   Timer(Duration(seconds: 5), () async {
     await flutterLocalNotificationsPlugin
         .cancel(0); // Use the correct notification ID
-  });
+  });*/
   return Future<void>.value();
+}
+
+Future<void> displayPushNotification(
+  RemoteMessage notification,
+) async {
+  localNotif('${notification.notification!.title}',
+      '${notification.notification!.body}');
 }
 
 iOSNotificationDetails() {}

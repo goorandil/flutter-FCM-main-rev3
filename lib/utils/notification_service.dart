@@ -43,7 +43,7 @@ class NotificationService {
       onDidReceiveBackgroundNotificationResponse: notificationTapBackground,
     );
     await _requestPermissions();
-    await _createNotificationChannels();
+    //await _createNotificationChannels();
     _listenNotificationActionStream();
     _isFlutterLocalNotificationsInitialized = true;
   }

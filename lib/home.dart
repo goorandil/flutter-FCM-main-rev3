@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You will receive notification',
+              'You will receive notification - version 6',
             ),
           ],
         ),
