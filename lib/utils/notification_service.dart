@@ -30,10 +30,6 @@ class NotificationService {
     Function(NotificationResponse)? onDidReceiveNotificationResponse,
   ) async {
     if (_isFlutterLocalNotificationsInitialized) return;
-    // final token = await _firebaseMessaging.getToken();
-    debugPrint('initializeNotificationService');
-    // ignore: avoid_print
-    //   debugPrint(token);
     await _initFirebaseMessaging();
     await _flutterLocalNotificationsPlugin.initialize(
       InitializationSettings(
@@ -55,8 +51,6 @@ class NotificationService {
   static Future<void> displayPushNotification(
     RemoteMessage notification,
   ) async {
-    debugPrint('displayPushNotification');
-
     localNotif('${notification.notification!.title}',
         '${notification.notification!.body}');
   }
@@ -114,14 +108,11 @@ class NotificationService {
   }
 
   static Future<void> _createNotificationChannels() async {
-    debugPrint('_createNotificationChannels');
     await _flutterLocalNotificationsPlugin
         .resolvePlatformSpecificImplementation<
             AndroidFlutterLocalNotificationsPlugin>()
         ?.createNotificationChannel(androidChannel);
   }
-
-  // static Future<void> deleteToken() async => _firebaseMessaging.deleteToken();
 }
 
 int get createUniqueId =>
@@ -160,8 +151,6 @@ Future<void> _showNotification(title, body) async {
       priority: Priority.high,
       ledOnMs: 100,
       ledOffMs: 1000,
-      //  fullScreenIntent: true,
-      //  sound: RawResourceAndroidNotificationSound('mysound'),
       playSound: true,
       category: AndroidNotificationCategory.alarm,
       ticker: 'ticker',
