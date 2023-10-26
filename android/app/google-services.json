@@ -1,0 +1,230 @@
+{
+  "project_info": {
+    "project_number": "958339363910",
+    "project_id": "cloud-warung-project",
+    "storage_bucket": "cloud-warung-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958339363910:android:bd8de98295687c9fc88647",
+        "android_client_info": {
+          "package_name": "com.cloudwarung.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958339363910-585abo9qs4895gd1j7vgvc6p48fiscj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.admin",
+            "certificate_hash": "ac0673e4f90bfbb52b5508b585f308de66da3669"
+          }
+        },
+        {
+          "client_id": "958339363910-ao7mh8n6kcm0sueosjov1je6ustapghf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.admin",
+            "certificate_hash": "802b40246cc706cd15401c4577ccd5944c3300b1"
+          }
+        },
+        {
+          "client_id": "958339363910-mf5kaal6ifkdqkrbghnth63c36euk50v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.admin",
+            "certificate_hash": "e5affbdd03418807df3a3d1ce4b5e490aefe7cb9"
+          }
+        },
+        {
+          "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
+        },
+        {
+          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
+        },
+        {
+          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958339363910:android:76510f573387e084c88647",
+        "android_client_info": {
+          "package_name": "com.cloudwarung.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958339363910-7oure6ca3o6b37muaa6efimim4gfjp92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.app",
+            "certificate_hash": "7dce3235c642dca91502c3f6438cb8da8d0f5825"
+          }
+        },
+        {
+          "client_id": "958339363910-bntf2j6ava3s18pneomta50md9563g98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.app",
+            "certificate_hash": "802b40246cc706cd15401c4577ccd5944c3300b1"
+          }
+        },
+        {
+          "client_id": "958339363910-uvk6r3jveqj1fh6mrm08334di0pv1ab7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.app",
+            "certificate_hash": "e5affbdd03418807df3a3d1ce4b5e490aefe7cb9"
+          }
+        },
+        {
+          "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
+        },
+        {
+          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
+        },
+        {
+          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958339363910:android:eb1f2bb4fefdd21ac88647",
+        "android_client_info": {
+          "package_name": "com.cloudwarung.app.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958339363910-cua21i6gnssdevk43il5q3i60jh762mf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.app.merchant",
+            "certificate_hash": "802b40246cc706cd15401c4577ccd5944c3300b1"
+          }
+        },
+        {
+          "client_id": "958339363910-dmomeokc2pqoh9g85t50apq5jnrbajer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.app.merchant",
+            "certificate_hash": "f0961da39c2ab3d447c2139c484f2564156ba101"
+          }
+        },
+        {
+          "client_id": "958339363910-kv7r8s22gis9r6o0g785oruco0g20lre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudwarung.app.merchant",
+            "certificate_hash": "e5affbdd03418807df3a3d1ce4b5e490aefe7cb9"
+          }
+        },
+        {
+          "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
+        },
+        {
+          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
+        },
+        {
+          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958339363910:android:165b00dc67c1c26cc88647",
+        "android_client_info": {
+          "package_name": "com.vsp.flutter_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958339363910-21vcatuu1vqpg2k58nqaqpan7ef16e8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vsp.flutter_notification",
+            "certificate_hash": "802b40246cc706cd15401c4577ccd5944c3300b1"
+          }
+        },
+        {
+          "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
+        },
+        {
+          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
+        },
+        {
+          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

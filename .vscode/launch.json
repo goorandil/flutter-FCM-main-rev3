@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "  redmi",
+            "request": "launch",
+            "type": "dart",
+           "args": ["-d", "ZHBE796LEA6TA6VK"],
+        }, 
+        {
+            "name": "  moto",
+            "request": "launch",
+            "type": "dart",
+           "args": ["-d", "ZH33M2263L"],
+        },  
+        {
+            "name": "flutter-FCM-main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter-FCM-main (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter-FCM-main (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter-FCM-main",
+            "cwd": "flutter-FCM-main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter-FCM-main (profile mode)",
+            "cwd": "flutter-FCM-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter-FCM-main (release mode)",
+            "cwd": "flutter-FCM-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
