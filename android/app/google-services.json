@@ -44,13 +44,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
-        },
-        {
-          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
-        },
-        {
-          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+          "current_key": "AIzaSyDZslpGi0tKF1foe8gUqA_JpHI0DvMh4C8"
         }
       ],
       "services": {
@@ -103,13 +97,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
-        },
-        {
-          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
-        },
-        {
-          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+          "current_key": "AIzaSyDZslpGi0tKF1foe8gUqA_JpHI0DvMh4C8"
         }
       ],
       "services": {
@@ -162,13 +150,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
-        },
-        {
-          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
-        },
-        {
-          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+          "current_key": "AIzaSyDZslpGi0tKF1foe8gUqA_JpHI0DvMh4C8"
         }
       ],
       "services": {
@@ -191,27 +173,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "958339363910-21vcatuu1vqpg2k58nqaqpan7ef16e8u.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.vsp.flutter_notification",
-            "certificate_hash": "802b40246cc706cd15401c4577ccd5944c3300b1"
-          }
-        },
-        {
           "client_id": "958339363910-g419ppbiqm15qdb1cssf35v58qdb4s61.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA-CgmyWO7Q8hhSHF802uXZrNj9Z686KrQ"
-        },
-        {
-          "current_key": "AIzaSyDKt2RtNByJyJzP2iBATTFKUQZHrlgi5ZI"
-        },
-        {
-          "current_key": "AIzaSyBbbOJnDM7I2m5RE9zQFasORTogMPb_rdc"
+          "current_key": "AIzaSyDZslpGi0tKF1foe8gUqA_JpHI0DvMh4C8"
         }
       ],
       "services": {

@@ -106,13 +106,6 @@ class NotificationService {
       }
     });
   }
-
-  static Future<void> _createNotificationChannels() async {
-    await _flutterLocalNotificationsPlugin
-        .resolvePlatformSpecificImplementation<
-            AndroidFlutterLocalNotificationsPlugin>()
-        ?.createNotificationChannel(androidChannel);
-  }
 }
 
 int get createUniqueId =>
@@ -138,7 +131,6 @@ Future<void> localNotif(title, body) async {
 
 ///fg
 Future<void> _showNotification(title, body) async {
-  debugPrint("_showNotification $title $body");
   NotificationDetails notificationDetails = const NotificationDetails(
     android: AndroidNotificationDetails(
       'test_notif',

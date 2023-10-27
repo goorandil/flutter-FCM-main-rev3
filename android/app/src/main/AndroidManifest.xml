@@ -5,7 +5,6 @@
 
     <application
         android:icon="@mipmap/ic_launcher"
-        android:name="${applicationName}"
         android:label="flutter_notification">
         <activity
             android:name=".MainActivity"
